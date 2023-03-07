@@ -1,0 +1,92 @@
+header {
+     background-color: #4169E1;
+     color: white;
+     padding-top: 1px;
+     padding-left: 5%;
+     width: 100%;
+     box-sizing: border-box;
+ }
+h1, h3, form {
+    font-family: optima, sans-serif;
+}
+h3 {
+    margin-left: 4%;
+}
+#entries {
+    border: 1px solid #4169E1;
+    margin: 2% 8% 2% 4%;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.2s ease-in-out;
+    min-width: 50%;
+}
+#entries:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.01);;
+}
+
+body {
+    margin: 0;
+}
+
+div {
+    margin-left: 5%;
+}
+
+#messageform {
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 90%;
+    margin-right: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#messageform input,
+#messageform textarea {
+    margin-bottom: 10px;
+}
+
+#name, #msg {
+    width: 100%;
+}
+#name, #msg, #name_l, #msg_l {
+    font-size: xx-large;
+}
+
+#send {
+    font-size: inherit;
+    width: 7vmax;
+    height: 3vmax;
+}
+
+#mainfooter {
+    font-size: small;
+    text-align: center;
+}
+
+a.delete-link {
+    width: 24px;
+    height: 29px;
+    padding: 2%;
+    background-image: url(../images/delete.png);
+    background-size: 97%;
+    border: 1px solid rgba(255, 0, 0, .3);
+    border-radius: 10%;
+    float: right;
+    background-repeat: no-repeat;
+}
+
+a.delete-link:hover {
+    border: 1px solid rgba(255, 0, 0, 1);
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    transition: all 0.1s ease-in-out;
+}
+
+
+
